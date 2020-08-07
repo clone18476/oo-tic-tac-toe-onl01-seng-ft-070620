@@ -27,7 +27,7 @@ def input_to_index(user_input)   #method that passes a string user input (1, 5, 
   user_input.to_i - 1     #  sends the user input to the appropriate space on the board. Remember arrays go from 0-8, the game goes from 1-9
 end
 
-def move(index, current_player = "X")   #method that takes in two arguments of this index in the @board array that the player chooses ( aka the spot on the board) and also the player's token, which DEFAULTS TO 'X'
+def move(index, current_player = "X")   #method that takes in two arguments of this index in the @board array that the player chooses (aka the spot on the board) and also the player's token, which DEFAULTS TO 'X'
   @board[index] = current_player
 end
 
